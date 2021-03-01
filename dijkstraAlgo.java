@@ -1,6 +1,6 @@
 package ada_2021;
 
-public class dijkstraAlgo {
+public class dijkstraAlgo {		//19csu247
 
 	
     static int V = 5; 
