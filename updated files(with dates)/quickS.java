@@ -1,7 +1,7 @@
 import java.util.*;
 
 //19csu247
-// date created : 8 march 
+// date created : 8 feb 2021 
 class QuickSort { 
    
 	static int count;
