@@ -12,7 +12,7 @@ public class Main
 		        if(temp>a[j+1]){temp=a[j+1];pos=j+1;}
 		        
 		    }
-		    System.out.println("short  s:"+a[pos]);
+		    
 		    int temp_1=a[i];
 		    a[i]=a[pos];
 		    a[pos]=temp_1;
@@ -34,7 +34,9 @@ short  s:54
 short  s:56                                                                                                                                                         
 short  s:789                                                                                                                                                        
 short  s:923                                                                                                                                                        
-short  s:1024                                                                                                                                                       
+short  s:1024   
+
+
 2 5 11 13 34 43 54 56 789 923 1024  
 
 */
