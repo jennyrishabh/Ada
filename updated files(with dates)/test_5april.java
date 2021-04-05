@@ -68,3 +68,21 @@ public class test_5april {
 	
 
 }
+
+
+
+/* 
+
+output : 
+
+
+
+Given array is
+ada , cyber , ade , dbms , IOT , IPS , iots , 
+
+afert Sorted 
+ada , ade , cyber , dbms , IOT , iots , IPS , 
+
+
+
+*/
