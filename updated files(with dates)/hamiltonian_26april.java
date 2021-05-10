@@ -1,10 +1,12 @@
 package ada_2021;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import java.util.Arrays;
+
 
 //19csu247
 //date created  :26 april_2021
+
  
 
 public class hamiltonian_26april
@@ -55,7 +57,7 @@ public class hamiltonian_26april
                 graph[vertex][v] = 0;
                 graph[v][vertex] = 0;
  
-                // if vertex not  selected  then  recursion
+                
                 if (!isPresent(v))
                     solve(v);
  
@@ -81,37 +83,25 @@ public class hamiltonian_26april
         System.out.print("\nPath : \n");
         for (int i = 0; i <= V; i++)
             System.out.println(path[i % V]);
-        //System.out.println();
+        
     }    
     
     public static void main (String[] args) 
     {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("HamiltonianCycle as on _26april_2021\n");
+        //Scanner scan = new Scanner(System.in);
         
-        hamiltonian_26april hc = new hamiltonian_26april();
+        hamiltonian_26april ham = new hamiltonian_26april();
  
         System.out.println("\nEntry of the matrix\n");
         
-        		// sol wala
-        int[][] a=		{{0, 1, 0, 1, 0},
+        		
+        int[][] array1= {{0, 1, 0, 1, 0},
 			            {1, 0, 1, 1, 1},
 			            {0, 1, 0, 0, 1},
 			            {1, 1, 0, 0, 1},
-			            {0, 1, 1, 1, 0},
-			        					};
+			            {0, 1, 1, 1, 0}};
         
-        		//no sol
-		int[][] b=          {{0, 1, 0, 1, 0},
-				            {1, 0, 1, 1, 1},
-				            {0, 1, 0, 0, 1},
-				            {1, 1, 0, 0, 0},
-				            {0, 1, 1, 0, 0},
-				        };
-		
-	
- 
-        hc.findHamiltonianCycle(a);        
+        ham.findHamiltonianCycle(array1);        
     }    
 }
 
