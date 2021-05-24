@@ -238,4 +238,17 @@ class knapsack_brachAndBound {
 	}
 }
 
+/*
+
+output : 
+
+Items takeninto the knapsack are
+1 1 0 1 
+Maximum profit is 38.0
+
+
+
+*/
+
+
 
