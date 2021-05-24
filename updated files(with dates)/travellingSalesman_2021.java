@@ -3,7 +3,7 @@ import java.util.*;
 import java.io.*;   
 import java.util.Scanner;  
   
-class tsp 
+class travellingSalesman_2021 
 
 
 //19CSU247   
